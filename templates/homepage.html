@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h1>Welcome to Your List</h1>
+
+    <button><a href="{% url 'login' %}">Log In</a></button>
+
+
+
+    <button><a href="{% url 'register' %}">Register</a></button>
+{% endblock %}
