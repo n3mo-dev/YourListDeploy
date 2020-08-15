@@ -25,7 +25,7 @@ SECRET_KEY = 'pi)*-8nwq-z0t!_h_fb-nh#ji^o+!b8zprqk*lmlat*dw8c(+&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['addyourlist.herokuapp.com']
 
 
 # Application definition
